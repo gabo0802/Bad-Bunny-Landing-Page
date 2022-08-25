@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bad Bunny Concert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />   
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://seeklogo.com/images/B/bad-bunny-logo-CF4F6C5BAD-seeklogo.com.png">
+      <h1 id="top">Bad Bunny Concert</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#information">Information</a></li>
+          <li><a class="nav-link" href="#preview">Preview</a></li>
+          <li><a class="nav-link" href="#sign-up">Sign-Up</a></li>
+        </ul>
+      </nav>
+    </header>
+  <main>
+    <section id="information" class="main-section">
+      <div>
+        <h2 id="first-h2">Join The "World's Hottest Tour"</h2>
+        <p class="description">* Listen to Bad Bunny's newest album live!</p>
+        <p class="description">* Get to see the award-winning artist at the peak of his career!</p>
+        <p class="description">* Don't miss this once in a lifetime opportunity!</p>
+      </div>
+    </section>
+    <section id="preview" class="main-section">
+      <h2>Here is a Preview from Bad Bunny's Recent Orlando Concert:</h2>
+      <iframe id="video" src="https://www.youtube.com/embed/XeG75hEicb8" allowfullscreen=""  frameborder="5"></iframe>
+    </section>
+    <section id="sign-up" class="main-section">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h3>Enter your information to receive updates on upcoming concerts:</h3>
+        <label id="name-label">
+          Name<input id="name" type="text" placeholder="Enter your name:" required />
+          </label>
+          <label id="email-label">
+            Email<input id="email" type="email" name="email" placeholder="Enter your email:" required />
+          </label>
+          <label id="number-label">
+            Age (optional)<input id="number" type="number" min="13" max="120" placeholder="Enter your age:">
+          </label>
+          <input type="submit" id="submit" value="Submit"/>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <address>
+      <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+      San Francisco<br />
+      California<br />
+      USA
+    </address>
+  </footer>  
+  </body>
+</html>
